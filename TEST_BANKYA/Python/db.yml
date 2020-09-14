@@ -1,0 +1,13 @@
+mysql:
+    host: localhost
+    port: 3306
+    user: root
+    #passwd: AIPL@lol14
+    passwd: #Aquí va el tuyo
+    db: credits
+other:
+    preprocessing_queue:
+        - preprocessing.scale_and_center
+        - preprocessing.dot_reduction
+        - preprocessing.connect_lines
+    use_anonymous: yes

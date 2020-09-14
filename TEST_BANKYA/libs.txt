@@ -1,0 +1,6 @@
+pip install pymysql
+pip install mysql
+pip install mysql-connector-python-rf
+pip install mysql-connector-python-dd
+pip install raygun-tap-mysql
+pip install sqlalchemy
